@@ -1,9 +1,9 @@
 
 // selectionner des elements et ajouter des elem HTML
-const list = document.querySelector("#players");
-// list.insertAdjacentHTML("beforeend", "<li>Luke</li>");
-// list.insertAdjacentHTML("beforeend", "<li>Anakin</li>");
-const element = list.querySelector(".red");
+const listOne = document.querySelector("#players");
+// listOne.insertAdjacentHTML("beforeend", "<li>Luke</li>");
+// listOne.insertAdjacentHTML("beforeend", "<li>Anakin</li>");
+const element = listOne.querySelector(".red");
 
 // ajouter, enlever une class css
 const list = document.querySelector('#fifa-wins li')
@@ -37,7 +37,7 @@ console.log(romain);
 romain.addEventListener('click', (event) => {
   // console.log('You clicked')
   // console.log(event.currentTarget);
-  romain.classList.toggle('img-circle');
+  // romain.classList.toggle('img-circle');
 
 });
 
